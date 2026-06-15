@@ -1,0 +1,39 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.buildlog
+.pub/
+# Ignore build outputs
+/build/
+
+# iOS
+ios/Flutter/Generated.xcconfig
+Pods/
+Podfile.lock
+
+# Android
+**/android/app/*.keystore
+**/android/local.properties
+**/android/.gradle/
+**/android/.idea/
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Generated files
+**/*.g.dart
+**/*.freezed.dart
+**/*.mocks.dart
+
+# Logs
+*.log
+
+# Misc
+.DS_Store
+coverage/
